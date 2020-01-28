@@ -76,7 +76,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Program Files\Assimp\include;C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\inc;C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\studio\inc;..\external\rapidjson\include;..\external\SOIL\include;external\GLEW\include;..\external\SDL\include;E:\vsc++\SDL2_image-2.0.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\Assimp\include;C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\inc;C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\studio\inc;..\external\rapidjson\include;..\external\SOIL\include;external\GLEW\include;..\external\SDL\include;\SDL2_image-2.0.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;_LIB</PreprocessorDefinitions>
     </ClCompile>
     <Link>

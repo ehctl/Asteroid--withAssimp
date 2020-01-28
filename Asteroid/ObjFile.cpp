@@ -145,7 +145,7 @@ void ObjFile::Read(string Name) {
 		vector< vector< BoneTransform>> info(temp->mNumChannels);
 		for (int m = 0; m < anim->numBones; m++) {
 			int jointInd = searchInd(mBonesName, temp->mChannels[m]->mNodeName.data);
-			cout << temp->mChannels[m]->mNodeName.data << endl;
+
 			vector<BoneTransform> bf;
 			for (int k = 0; k < anim->numFrames; k++) {
 				BoneTransform b = BoneTransform();
@@ -178,8 +178,8 @@ void ObjFile::Read(string Name) {
 
 	if ( scene->mNumMeshes != 1 ) {
 		for (int i = 0; i < scene->mNumMeshes; i++) {
-			cout << scene->mNumMeshes << endl;
-			cout << scene->mMeshes[i]->mName.data << endl;
+			//cout << scene->mNumMeshes << endl;
+			//cout << scene->mMeshes[i]->mName.data << endl;
 			aiMesh* mesh = scene->mMeshes[i];
 
 			vector<float> vert(mesh->mNumVertices * 3);
