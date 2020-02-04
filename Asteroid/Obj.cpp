@@ -90,12 +90,12 @@ void Obj::ActorInput(InputState* state) {
 		// wasd movement
 		if (state->keyboard.getKeyValue(SDL_SCANCODE_A))
 		{
-			forwardSpeed += 100.0f;
+			forwardSpeed -= 100.0f;
 
 		}
 		if (state->keyboard.getKeyValue(SDL_SCANCODE_D))
 		{
-			forwardSpeed -= 100.0f;
+			forwardSpeed += 100.0f;
 		}
 		if (state->keyboard.getKeyValue(SDL_SCANCODE_W))
 		{
